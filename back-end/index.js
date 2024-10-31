@@ -5,12 +5,12 @@
 // console.log(request);
 // response.end("hello")
 
-// server.listen(8100)
+// server.listen(4400)
 
 import express from "express";
 
 const app = express();
-const port = 8100;
+const port = 4400;
 
 app.listen(port, () => {
   console.log("server ajillaa");
